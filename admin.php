@@ -16,7 +16,7 @@
   $dbName = "Blog";
 
   
-  $dbConnect = dbConnect($dbHost, $dbUserName, $dbUserPassword, $dbName);
+  $dbConnect = dbConnect($dbHost, $dbUserName, $dbUserPassword, $dbName); 
   
   $sql = "SELECT idPosts,postDate,postTitle FROM Posts";
   $dbQuery = mysqli_query($dbConnect, $sql);
